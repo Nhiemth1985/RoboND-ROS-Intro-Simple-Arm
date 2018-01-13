@@ -1,0 +1,27 @@
+# added by Miniconda3 installer
+# export PATH="/home/mkhuthir/miniconda3/bin:$PATH"
+
+# Required to disable ROS python when using conda
+# unset PYTHONPATH
+
+
+# added for ROS
+source /opt/ros/kinetic/setup.sh
+export EDITOR='nano -w'
+export ROS_MASTER_URI=http://MuthDT1:11311
+export ROS_HOSTNAME=MuthDT1
+
+# added for RoboND ROS
+source ~/robond_ws/devel/setup.bash
+
+# added for Turtlebot 3 ROS
+#source ~/catkin_ws/devel/setup.bash
+#export TURTLEBOT3_MODEL=burger
+alias eb='gedit ~/.bashrc'
+alias sb='source ~/.bashrc'
+alias gs='git status'
+alias gp='git pull'
+alias cw='cd ~/catkin_ws'
+alias cs='cd ~/catkin_ws/src'
+alias cm='cd ~/catkin_ws && catkin_make'
+
