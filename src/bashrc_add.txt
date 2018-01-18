@@ -1,9 +1,3 @@
-# added by Miniconda3 installer
-# export PATH="/home/mkhuthir/miniconda3/bin:$PATH"
-
-# Required to disable ROS python when using conda
-# unset PYTHONPATH
-
 
 # added for ROS
 source /opt/ros/kinetic/setup.sh
@@ -25,3 +19,8 @@ alias cw='cd ~/catkin_ws'
 alias cs='cd ~/catkin_ws/src'
 alias cm='cd ~/catkin_ws && catkin_make'
 
+# added by Miniconda3 installer
+# export PATH="/home/mkhuthir/miniconda3/bin:$PATH"
+
+# Required to disable ROS python when using conda
+# unset PYTHONPATH
