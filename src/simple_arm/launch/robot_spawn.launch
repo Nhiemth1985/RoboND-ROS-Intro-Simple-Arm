@@ -1,4 +1,5 @@
 <launch>
+
   <!--Include description and control launch files-->
   <include file="$(find simple_arm)/launch/robot_description.xml"/>
   <include file="$(find simple_arm)/launch/robot_control.xml"/>
@@ -15,7 +16,8 @@
 
   <!--spawn a robot in gazebo world-->
   <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen"
-  args="-urdf -param robot_description -x 0 -y 0 -z 0 -R 0 -P 0 -Y 0 -model simple_arm"/>
+  args="-urdf -param robot_description -x 0 -y 0 -z 0 -R 0 -P 0 -Y 0 -model simple_arm">
+  </node>
 
   <!-- The arm mover node -->
   <node name="arm_mover" type="arm_mover" pkg="simple_arm">
@@ -28,6 +30,8 @@
   </node>
 
   <!-- The look away node -->
-  <node name="look_away" type="look_away" pkg="simple_arm"/>
+  <node name="look_away" type="look_away" pkg="simple_arm">
+  </node>
+
 
 </launch>
