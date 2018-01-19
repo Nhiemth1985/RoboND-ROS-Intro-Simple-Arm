@@ -43,6 +43,13 @@ $ rostopic pub -1 /simple_arm/joint_2_position_controller/command std_msgs/Float
 
 **Note: Change the value of "data" argument to change joint_position values.**
 
+Another way to change joint values is to call `arm_mover/safe_move` service:
+
+```sh
+$ rosservice call /arm_mover/safe_move "joint_1: 0 
+joint_2: 0"
+```
+
 ### How to view image stream from the camera?
 
 Camera image stream is published to following topic:
@@ -50,7 +57,7 @@ Camera image stream is published to following topic:
 /rgb_camera/image_raw
 ```
 
-This stream can be viewed by folliwng command in separate terminal:
+This stream can be viewed by following command in separate terminal:
 ```sh
 $ rosrun image_view image_view image:=/rgb_camera/image_raw
 ```
