@@ -4,8 +4,16 @@
 
 A mini-project to better explain pub-sub architecture in ROS (kinetic)
 
+### How to clone the repository
+
+From your ubuntu home directory run the following command:
+
+```bash
+$ git clone https://github.com/mkhuthir/RoboND-ROS-Intro-Simple-Arm.git catkin_ws
+```
+
 ### How to Launch the simulation?
-Make sure you have all the required ROS packages installed, and that this package is in your ROS workspace (assumed ot be `~/catkin_ws`.
+Make sure you have all the required ROS packages installed, and that this package is in your ROS workspace (assumed to be `~/catkin_ws`.
 
 ```sh
 $ cd ~/catkin_ws
