@@ -83,4 +83,4 @@ $ sudo apt-get install gazebo7
 
 ### Test Video
 
-[![test video](http://img.youtube.com/vi/aN3Ypqf9sA/default.jpg)](http://www.youtube.com/watch?v=aN3Ypqf9sA)
+[![test video](http://img.youtube.com/vi/jaN3Ypqf9sA/default.jpg)](http://www.youtube.com/watch?v=jaN3Ypqf9sA)
