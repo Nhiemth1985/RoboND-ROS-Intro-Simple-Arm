@@ -1,6 +1,7 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
-# simple_arm
+# Simple Arm Simulation using ROS/Python/GAZEBO/RViz
+
 A mini-project to better explain pub-sub architecture in ROS (kinetic)
 
 ### How to Launch the simulation?
