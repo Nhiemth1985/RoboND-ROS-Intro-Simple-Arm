@@ -1,8 +1,8 @@
 [![Udacity - Robotics NanoDegree Program](https://s3-us-west-1.amazonaws.com/udacity-robotics/Extra+Images/RoboND_flag.png)](https://www.udacity.com/robotics)
 
-<p align="center"><img src="misc/simple_arm.png"></p>
-
 # ROS Simple Arm Simulation
+
+<p align="center"><img src="misc/simple_arm.png"></p>
 
 A mini-project to better explain pub-sub architecture in ROS (kinetic)
 
@@ -80,3 +80,7 @@ $ wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 $ sudo apt-get update
 $ sudo apt-get install gazebo7
 ```
+
+### Test Video
+
+[![test video](http://img.youtube.com/vi/aN3Ypqf9sA/default.jpg)](http://www.youtube.com/watch?v=aN3Ypqf9sA)
